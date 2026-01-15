@@ -2,8 +2,8 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime
-from .data_generator import generate_stock_universe
-from .visualizations import (
+from data_generator import generate_stock_universe
+from visualizations import (
     create_heatmap_chart,
     create_scatter_chart,
     create_sector_charts,
